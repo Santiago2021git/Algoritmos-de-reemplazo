@@ -44,7 +44,7 @@ export function ejecutarAlgoritmoFIFOPlus(referencias, numMarcos) {
 
     // Guardar el estado de los marcos
     const estadoActual = marcos.map((p, idx) =>
-      p !== null ? `${p}${bits[idx] === 1 ? "*" : ""}` : ""
+      p !== null ? `${p}${bits[idx] === 1 ? "🩷" : ""}` : ""
     );
     tabla.push(estadoActual);
   }
